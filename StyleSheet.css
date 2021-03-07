@@ -1,0 +1,118 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: right;
+    direction: rtl;
+    font-family: Arial;
+    margin: 0;
+}
+.header {
+    padding: 40px;
+    text-align: center;
+    background: #b3daff;
+    color: black;
+}
+.navbar {
+    display: flex;
+    background-color: #333;
+}
+    .navbar a {
+        color: white;
+        padding: 14px 20px;
+        text-decoration: none;
+        text-align: center;
+    }
+        .navbar a:hover {
+            background-color: #868686;
+            color: black;
+        }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    direction: rtl;
+}
+.side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+.main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+.fakeimg {
+    background-color: #e6f3ff;
+    width: 82%;
+    padding: 20px;
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #b3daff;
+}
+@media screen and (max-width: 700px) {
+    .row, .navbar {
+        flex-direction: column;
+    }
+}
+h1 {
+    font-family: Cooper Black;
+    font-size: 60px;
+    text-align: center;
+}
+
+h2 {
+    font-family: Calibri;
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-family: Cooper Black;
+    font-size: 60px;
+    text-align: right;
+}
+
+h4 {
+    font-family: Calibri;
+    font-size: 30px;
+    text-align: right;
+}
+
+p {
+    font-family: Calibri;
+    font-size: 20px;
+    text-align: right;
+}
+.picHome {
+    flex: 45%;
+}
+.wow {
+    display: flex;
+    flex-wrap: wrap;
+}
+.text{
+    flex:55%;
+    width:50%;
+    text-align:right;
+}
+.navbarWhite{
+    border:1px solid black;
+    background-color:white;
+    display:flex;
+    flex-wrap:wrap;
+}
+.navbarWhite a {
+    color: black;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+    .navbarWhite a:hover {
+        background-color: #cceeff;
+        color: black;
+    }
